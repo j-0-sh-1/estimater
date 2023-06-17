@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Construction Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Construction Calculator</h1>
+    </header>
+    <main>
+        <div class="calculator">
+            <h2>Tile Calculator</h2>
+            <label for="tile-sqft">Enter Square feet area to cover:</label>
+            <input type="number" id="tile-sqft" placeholder="Square feet">
+            <button onclick="calculateTile()">Calculate</button>
+            <div id="tile-result" class="result"></div>
+            <button onclick="showTileBreakdown()">Show Breakdown</button>
+            <div id="tile-breakdown" class="breakdown"></div>
+        </div>
+        <div class="calculator">
+            <h2>Wall Tiles Calculator</h2>
+            <!-- Add wall tiles calculator HTML code here -->
+        </div>
+        <div class="calculator">
+            <h2>Paint Calculator</h2>
+            <!-- Add paint calculator HTML code here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
